@@ -18,6 +18,7 @@ public class APIDay5_PostThenGet {
     public void postEmployeeThenEmp(){
         double randomId = new Random().nextInt(99999);
         String url = ConfigurationReader.get("API_employees");
+        int count;
 
         Map reqEmployee = new HashMap<>();
         reqEmployee.put("employee_id", randomId);
