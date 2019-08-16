@@ -1,4 +1,4 @@
-package com.vytrack.tests_API.Beans;
+package com.compnay.testsAPI.tests_API.Beans;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;

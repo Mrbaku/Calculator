@@ -1,6 +1,6 @@
-package com.vytrack.tests_API.API;
-import com.vytrack.utilities.ConfigurationReader;
-import cucumber.api.java.it.Ma;
+package com.compnay.testsAPI.tests_API.API;
+
+import com.compnay.Utilities.ConfigurationReader;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import org.junit.Test;
@@ -9,7 +9,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Random;
 
-import static io.restassured.RestAssured.*;
+import static io.restassured.RestAssured.given;
 import static org.junit.Assert.assertEquals;
 
 public class APIDay5_PostThenGet {

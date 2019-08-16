@@ -1,6 +1,6 @@
-package com.vytrack.tests_API.API;
+package com.compnay.testsAPI.tests_API.API;
 
-import com.vytrack.utilities.ConfigurationReader;
+import com.compnay.Utilities.ConfigurationReader;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import org.junit.Test;
@@ -35,7 +35,7 @@ public class APIDay3_GSON {
 
         //convert the response that contains departments information into list of maps
         //List<Map<String, String>> listOfMaps = response.as(ArrayList.class);
-        List <Map> listOfMaps = response.jsonPath().getList("items", Map.class);
+        List<Map> listOfMaps = response.jsonPath().getList("items", Map.class);
         System.out.println(listOfMaps.get(0));
 
         //asert that first department name is "Administration"

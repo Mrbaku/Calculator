@@ -1,6 +1,7 @@
-package com.vytrack.tests_API.API;
+package com.compnay.testsAPI.tests_API.API;
 
-import com.vytrack.utilities.ConfigurationReader;
+import com.compnay.Utilities.ConfigurationReader;
+
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;

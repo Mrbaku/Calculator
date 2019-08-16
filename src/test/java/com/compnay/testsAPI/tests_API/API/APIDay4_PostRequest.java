@@ -1,8 +1,9 @@
-package com.vytrack.tests_API.API;
+package com.compnay.testsAPI.tests_API.API;
 
-import com.vytrack.tests_API.Beans.Countries;
-import com.vytrack.tests_API.Beans.Region;
-import com.vytrack.utilities.ConfigurationReader;
+
+import com.compnay.Utilities.ConfigurationReader;
+import com.compnay.testsAPI.tests_API.Beans.Countries;
+import com.compnay.testsAPI.tests_API.Beans.Region;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import org.junit.Test;

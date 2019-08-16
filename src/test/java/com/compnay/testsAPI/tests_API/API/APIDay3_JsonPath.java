@@ -1,6 +1,6 @@
-package com.vytrack.tests_API.API;
+package com.compnay.testsAPI.tests_API.API;
 
-import com.vytrack.utilities.ConfigurationReader;
+import com.compnay.Utilities.ConfigurationReader;
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
@@ -166,7 +166,7 @@ public class APIDay3_JsonPath {
         System.out.println(empIdsList);
 
         //get all emp last names whose salary is more than 7000
-        List <String> lastnames = json.getList("items.findAll{it.salary >7000}.last_name");
+        List<String> lastnames = json.getList("items.findAll{it.salary >7000}.last_name");
         System.out.println(lastnames);
 
 
